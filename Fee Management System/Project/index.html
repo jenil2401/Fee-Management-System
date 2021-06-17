@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Fee Report System</title>
+<link rel="stylesheet" href="resources/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<style type="text/css">
+.navbar
+{
+border-radius: 0px;
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+<span class="sr-only">Toggle Navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="index.html">FeeReportSystem</a>
+</div>
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar-nav">
+</ul>
+</div>
+</div>
+</nav>
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<h2>Admin Login</h2>
+<form action="AdminLogin" method="post">
+<table>
+<tr><td>Email:</td><td><input type="email" name="email" required="required"></td></tr>
+<tr><td>Password:</td><td><input type="password" name="password" required="required"></td></tr>
+<tr><td colspan="2" align="center"><input type="submit" class="btn btn-default" value="Login"></td></tr>
+</table>
+</form>
+
+</div>
+<div class="col-md-6">
+<h2>Accountant Login</h2>
+<form action="AccountantLoginValidate" method="post">
+<table>
+<tr>
+<td>Email:</td>
+<td><input type="email" name="email" required="required"></td>
+</tr>
+<tr>
+<td>Password:</td>
+<td><input type="password" name="password" required="required"></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type="submit" class="btn btn-default" value="Login"></td>
+</tr>
+</table>
+</form>
+</div>
+</div>
+</div>
+<div class="container-fluid footer">
+<p>&copy; Kaavya Mandar and Jenil (TY BTech IT)</p>
+</div>
+<script src="resources/jquery.min.js"></script>
+<script src="resources/bootstrap.min.js"></script>
+</body>
+</html>

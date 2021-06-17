@@ -1,0 +1,23 @@
+div.box
+{
+	width: 35%;
+	border: 1px solid #00a591;
+	margin-left: 10px;
+	padding: 20px;
+	float: left;
+}
+input,select,textarea
+{
+	margin: 3px;
+	padding: 5px;
+	border: 1px solid #00a591;
+	border-radius: 5px;
+}
+.footer
+{
+	margin-top: 100px;
+	padding: 50px;
+	text-align: center;
+	background: #101010;
+	color: white;
+}
